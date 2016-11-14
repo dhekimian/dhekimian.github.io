@@ -1,0 +1,32 @@
+<section class="featureslider col-xs-12" id="featureslider_{{ include.name }}">
+  <div class="container">
+    <section class="col-xs-4">
+      {% if include.c.header != "" %}
+        <div class="featureslider_header">{{ include.c.header }}</div>
+      {% endif %}
+
+      <ul class="nav nav-tabs tabs-left">
+        {% for tab in include.c.tabs %}
+          <li class="featureslider_tab{% if forloop.index == 1 %} active{% endif %}"
+               id="featureslider_{{ include.name }}_tab_{{ forloop.index }}">
+            <a href="#featureslider_{{ include.name }}_content_{{ forloop.index }}" data-toggle="tab">{{ tab.tab }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+
+      {% if include.c.footer != "" %}
+        <div class="featureslider_footer">{{ include.c.footer }}</div>
+      {% endif %}
+    </section>
+    <section class="col-xs-8">
+      <div class="tab-content">
+        {% for tab in include.c.tabs %}
+          <div class="featureslider_content tab-pane fade{% if forloop.index == 1 %} in active{% endif %}"
+               id="featureslider_{{ include.name }}_content_{{ forloop.index }}">
+            {{ tab.content }}
+          </div>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+</section>

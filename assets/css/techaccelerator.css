@@ -1978,3 +1978,57 @@ pre span {
 .stacked-col-right { text-align:right; padding-left: 25px;}
 .stacked-col-left img { margin-right:0; margin-right:auto; }
 .stacked-col-right img { margin-right:0; margin-left:auto; }
+
+
+
+
+
+
+/* featureslider */
+  .featureslider {
+    padding: 40px 0;
+  }
+  .featureslider_header {
+    margin-bottom: 15px;
+  }
+  .featureslider_footer {
+    margin-top: 15px;
+  }
+  .featureslider_tab {}
+  .featureslider_tab.active {}
+  .featureslider_content {}
+
+
+
+
+
+/* left tabs */
+  .tabs-left.nav-tabs, .tabs-right.nav-tabs {
+    border-color: transparent;
+  }
+  .tabs-left.nav-tabs>li, .tabs-right.nav-tabs>li {
+    float: none;
+  }
+  .tabs-left.nav-tabs>li.active>a,
+  .tabs-left.nav-tabs>li.active>a:hover,
+  .tabs-left.nav-tabs>li.active>a:focus {
+    border-color: #d2eafa;
+    border-width: 1px;
+    background-color: #ecf8fe;
+  }
+  .tabs-left.nav-tabs>li>a {
+    border-radius: 4px;
+    color: #555;
+    display: block;
+    margin-right: -1px;
+  }
+  .tabs-left.nav-tabs>li>a:hover,
+  .tabs-left.nav-tabs>li>a:focus {
+    color: #555;
+    background: #f8f8f8;
+    border-color: transparent;
+  }
+  .tabs-left.nav-tabs>li>a, .tabs-right.nav-tabs>li>a {
+    margin-right: 0;
+    margin-bottom: 3px;
+  }

@@ -1,0 +1,13 @@
+header: header text - empty ( "" ) to not use
+footer: footer text - empty ( "" ) to not use
+tabs:
+  - tab: Click Heatmaps
+    content: <div style="height:400px;background:#ff8">image 1 goes here</div>
+  - tab: Move Heatmaps
+    content: <div style="height:400px;background:#f8f">image 2 goes here</div>
+  - tab: Scroll Heatmaps
+    content: <div style="height:400px;background:#8ff">image 3 goes here</div>
+  - tab: Download and share Heatmaps
+    content: <div style="height:400px;background:#ff8">image 4 goes here</div>
+  - tab: Heatmaps split by device type
+    content: <div style="height:400px;background:#f8f">image 5 goes here</div>
