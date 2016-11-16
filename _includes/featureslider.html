@@ -66,7 +66,7 @@
 
     {% for tab in include.c.tabs %}
       <h4 id="featureslider_{{ include.name }}_content_{{ forloop.index }}">{{ tab.tab}}</h4>
-      <div>
+      <div class="featureslider_content">
         {{ tab.content }}
       </div>
     {% endfor %}

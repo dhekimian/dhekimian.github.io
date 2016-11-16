@@ -1997,7 +1997,15 @@ pre span {
   .featureslider_tab {}
   .featureslider_tab.active {}
   .featureslider_content {}
-
+  .featureslider_content img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .featureslider_content p {
+    padding: 15px;
+    text-align: center;
+  }
 
 
 
