@@ -1,23 +1,29 @@
-<section class="featureslider col-xs-12" id="featureslider_{{ include.name }}">
-  <div class="container">
-    <section class="col-xs-4">
-      {% if include.c.header != "" %}
-        <div class="featureslider_header">{{ include.c.header }}</div>
-      {% endif %}
+<section class="featureslider" id="featureslider_{{ include.name }}">
+  <!-- non-small screen -->
+  <div class="container hidden-xs">
+    {% if include.c.direction != 'right' %}
+      <!-- left tabs -->
+      <section class="col-xs-4">
+        {% if include.c.header != "" %}
+          <div class="featureslider_header">{{ include.c.header }}</div>
+        {% endif %}
 
-      <ul class="nav nav-tabs tabs-left">
-        {% for tab in include.c.tabs %}
-          <li class="featureslider_tab{% if forloop.index == 1 %} active{% endif %}"
-               id="featureslider_{{ include.name }}_tab_{{ forloop.index }}">
-            <a href="#featureslider_{{ include.name }}_content_{{ forloop.index }}" data-toggle="tab">{{ tab.tab }}</a>
-          </li>
-        {% endfor %}
-      </ul>
+        <ul class="nav nav-tabs tabs-left">
+          {% for tab in include.c.tabs %}
+            <li class="featureslider_tab{% if forloop.index == 1 %} active{% endif %}"
+                 id="featureslider_{{ include.name }}_tab_{{ forloop.index }}">
+              <a href="#featureslider_{{ include.name }}_content_{{ forloop.index }}" data-toggle="tab">{{ tab.tab }}</a>
+            </li>
+          {% endfor %}
+        </ul>
 
-      {% if include.c.footer != "" %}
-        <div class="featureslider_footer">{{ include.c.footer }}</div>
-      {% endif %}
-    </section>
+        {% if include.c.footer != "" %}
+          <div class="featureslider_footer">{{ include.c.footer }}</div>
+        {% endif %}
+      </section>
+    {% endif %}
+
+    <!-- content -->
     <section class="col-xs-8">
       <div class="tab-content">
         {% for tab in include.c.tabs %}
@@ -28,5 +34,45 @@
         {% endfor %}
       </div>
     </section>
+
+    {% if include.c.direction == 'right' %}
+      <!-- right tabs -->
+      <section class="col-xs-4">
+        {% if include.c.header != "" %}
+          <div class="featureslider_header">{{ include.c.header }}</div>
+        {% endif %}
+
+        <ul class="nav nav-tabs tabs-left">
+          {% for tab in include.c.tabs %}
+            <li class="featureslider_tab{% if forloop.index == 1 %} active{% endif %}"
+                 id="featureslider_{{ include.name }}_tab_{{ forloop.index }}">
+              <a href="#featureslider_{{ include.name }}_content_{{ forloop.index }}" data-toggle="tab">{{ tab.tab }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+
+        {% if include.c.footer != "" %}
+          <div class="featureslider_footer">{{ include.c.footer }}</div>
+        {% endif %}
+      </section>
+    {% endif %}
+  </div>
+
+  <!-- small screen -->
+  <div class="container container-small hidden-sm hidden-md hidden-lg">
+    {% if include.c.header != "" %}
+      <div class="featureslider_header">{{ include.c.header }}</div>
+    {% endif %}
+
+    {% for tab in include.c.tabs %}
+      <h4 id="featureslider_{{ include.name }}_content_{{ forloop.index }}">{{ tab.tab}}</h4>
+      <div>
+        {{ tab.content }}
+      </div>
+    {% endfor %}
+
+    {% if include.c.footer != "" %}
+      <div class="featureslider_footer">{{ include.c.footer }}</div>
+    {% endif %}
   </div>
 </section>

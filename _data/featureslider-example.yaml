@@ -1,5 +1,6 @@
 header: header text - empty ( "" ) to not use
 footer: footer text - empty ( "" ) to not use
+#direction: right
 tabs:
   - tab: Click Heatmaps
     content: <div><img style="height:100%;width:100%;object-fit:contain" src="/assets/images/slider/sample-1.png"></div>
