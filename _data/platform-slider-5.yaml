@@ -1,0 +1,24 @@
+header: <h3> Reporting </h3>
+footer: ""
+# direction: right
+tabs:
+  - tab: Standalone Reports
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Of reports[/Screenshot]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Salesforce Integration
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Animated GIF of Salesforce Reports[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Report Builder
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Two Way data Integrations
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>

@@ -1,0 +1,19 @@
+header: <h3> White Labeled Interface </h3>
+footer: ""
+#direction: right
+tabs:
+  - tab: Branding and Messaging
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>GIF highlighting areas that can be customized, and the presentation being scrolled through</p>
+      <p> BLURB MISSING </p>
+  - tab: Presentations - Consistent Branding & Messaging (Pitch the right content)
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>GIF of a simple presentation being built</p>
+      <p> BLURB MISSING </p>
+  - tab: Story - Integrated lab steps w/ Buttons
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>GIF Show a screenshot of a lab story w/ buttons sending text to a console</p>
+      <p> BLURB MISSING </p>

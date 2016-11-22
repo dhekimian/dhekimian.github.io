@@ -1,0 +1,24 @@
+header: <h3> Lab Builder </h3>
+footer: ""
+direction: right
+tabs:
+  - tab: VM Templates
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Logos of various operating systems (Windows, CentOS, Ubuntu, ESXi etc.)[/Screenshot]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Software Catalog
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Node Templates
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Logos of various applications (Microsoft Active Directory, Microsoft Exchange, MySQL, Puppet Enterprise, etc.)[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Lab Blueprints and templates
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]GIF presentation slide <br>Slide 1: GIF of someone building a lab using VM templates AND Node templates <br>Slide 2:  GIF of someone creating a new blueprint from a template and making minor changes[/IMG]</b></p>
+      <p> BLURB MISSING </p>

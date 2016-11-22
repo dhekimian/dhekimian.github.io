@@ -1,0 +1,14 @@
+header: <h3> Infrastructure as code </h3>
+footer: ""
+# direction: right
+tabs:
+  - tab: Integrated GitLab for Version Control of all Artifacts
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Show Gitlab logo and something representing a git repo and or “artifact”[/Screenshot]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Supported Languages / Tools
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Logos of Bash/PowerShell, Puppet, Chef, Ansible, Salt[/IMG]</b></p>
+      <p> BLURB MISSING </p>
