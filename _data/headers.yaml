@@ -1,12 +1,10 @@
 header:
   - title: HOME
     link: ""
-  - title: SOLUTIONS
-    link: solutions
-  - title: TECHNOLOGY
-    link: technology
-  - title: DOCS
-    link: docs
+  - title: WHY TA
+    link: why
+  - title: OUR SOLUTION
+    link: solution
   - title: PRICING
     link: pricing
   - title: CUSTOMERS
