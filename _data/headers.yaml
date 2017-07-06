@@ -1,9 +1,5 @@
 header:
-  - title: HOME
-    link: ""
-  - title: WHY TA
-    link: why
-  - title: OUR SOLUTION
+  - title: SOLUTION
     link: solution
   - title: PRICING
     link: pricing
