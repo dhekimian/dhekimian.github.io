@@ -757,6 +757,12 @@ h3 {
   color: #006EB6
 }
 
+@media (max-width: 400px) {
+  .page-header .main-logo .navbar-brand span {
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 767px) {
   .page-header .container .main-logo {
     margin: 3px -7px;
