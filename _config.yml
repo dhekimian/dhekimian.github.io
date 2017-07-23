@@ -1,6 +1,28 @@
 host: 0.0.0.0
 url: https://techaccelerator.com
 
+#SEO https://github.com/jekyll/jekyll-seo-tag
+gems:
+  - jekyll-seo-tag
+
+description: We craft on-demand, hands-on lab environments to educate, engage and ultimately empower enterprise customers, direct sales teams and channel partners, so they can get from Demo to PoC to PO faster
+
+twitter:
+  username: techaccel
+
+author:
+  twitter: dhekimian
+
+social:
+  name: TechAccelerator
+  links:
+    - https://twitter.com/techaccel
+    - https://linkedin.com/company/techaccelerator
+
+sass:
+  sass_dir: _scss
+
+
 excerpt_separator: <!--more-->
 
 kramdown:

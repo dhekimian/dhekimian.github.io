@@ -1,0 +1,44 @@
+$font-family: 'Roboto Condensed', sans-serif;
+
+$body-background: #fff;
+$nav-background: #1e262a;
+$nav-dark: #000;
+$ta_blue: #006EB6;
+$ta_blue_comp: #19a4ff;
+$ta_blue_hover: #338bc5;
+
+$border-gray: #ccc;
+$border-green: #26c281;
+$border-red: #d9534f;
+$border-red-dark: #a94442;
+$border-red-light: #f2dede;
+$border-yellow: #fbb319;
+$border-yellow-dark: #8a6d3b;
+$border-yellow-light: #fcf8e3;
+
+$fill-gray: #ccc;
+$fill-gray-dark: #444;
+$fill-gray-light: #fefefe;
+$fill-green: #26c281;
+$fill-green-dark: #26a69a;
+$fill-green-light: #dbffdb;
+$fill-red: #d9534f;
+$fill-red-dark: #a94442;
+$fill-red-light: #f2dede;
+$fill-yellow: #fbb319;
+$fill-yellow-dark: #8a6d3b;
+$fill-yellow-light: #fcf8e3;
+
+$text: #333;
+$text-green: #26c281;
+$text-light: #888;
+$text-red: #d9534f;
+$text-reverse: #fff;
+$text-yellow: #fbb319;
+
+@mixin border-radius( $radius ){
+  -webkit-border-radius: $radius !important;
+     -moz-border-radius: $radius !important;
+      -ms-border-radius: $radius !important;
+          border-radius: $radius !important;
+}
