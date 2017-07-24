@@ -48,7 +48,6 @@ header {
   text-align: left;
   color: #000;
   background: $ta_blue;
-  /*background: #045394;*/
   .container {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -153,6 +152,30 @@ header {
   }
   &:hover {
     background: #1cb5ba;
+  }
+}
+
+.yellow_button {
+  border: solid 1px $fill-yellow;
+  background: $fill-yellow;
+  -webkit-transition: all 0.1s;
+  -moz-transition: all 0.1s;
+  transition: all 0.1s;
+  -webkit-box-shadow: 0px 5px 0px $fill-yellow-dark;
+  -moz-box-shadow: 0px 5px 0px $fill-yellow-dark;
+  box-shadow: 0px 5px 0px $fill-yellow-dark;
+  &:active, &:focus, &:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  &:active {
+    background: $fill-yellow-light;
+    &:hover {
+      background: $fill-yellow-light;
+    }
+  }
+  &:hover {
+    background: #efae4e;
   }
 }
 
@@ -991,7 +1014,8 @@ footer {
 }
 
 .footer-middle {
-  background: url("../images/pattern.png") repeat top left;
+  /*background: url("../images/pattern.png") repeat top left;*/
+  background: $ta_blue;
   padding: 37px 0 26px 0;
   font-weight: 700;
   font-size: 16px;
