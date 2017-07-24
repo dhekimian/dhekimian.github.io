@@ -1,0 +1,24 @@
+header: <h3> Easy but Secure Access </h3>
+footer: ""
+direction: right
+tabs:
+  - tab: Direct VM console Access
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Show the console of a VM booting[/Screenshot]</b></p>
+      <p>Connect directly to the VMs console to configure & troubleshoot even when the network isn't working.</p>
+  - tab: No plugins, VPN, RDP required
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Gif of a user logging into our portal with some sort of ⦸ through an icon of AD, VPN RDP[/IMG]</b></p>
+      <p>No need to SSH or RDP!</p>
+  - tab: Single Sign-On integration
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]</b></p>
+      <p>Leverage your existing Single Sign-On setup with SAML integration. We support OKTA, OneLogin and many more!</p>
+  - tab: Role Based Access Control
+    content: >
+      <img src="http://wpresstic.com/wp-content/uploads/wordpress-user-roles.jpg">
+      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]</b></p>
+      <p>Employees vs Channel Partners vs End Users</p>
