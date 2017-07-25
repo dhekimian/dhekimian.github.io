@@ -10,7 +10,7 @@ body {
   font-size: 16px;
   color: #666;
   font-weight: 400;
-  margin-bottom: 267px;
+  margin-bottom: 230px;
 }
 
 .logo1 {
@@ -958,7 +958,6 @@ h3 {
 footer {
   bottom: 0;
   color: #fff;
-  height: 267px;
   position: absolute;
   width: 100%;
   h3 {
@@ -1016,12 +1015,12 @@ footer {
 .footer-middle {
   /*background: url("../images/pattern.png") repeat top left;*/
   background: $ta_blue;
-  padding: 37px 0 26px 0;
+  padding: 37px 0 0 0;
   font-weight: 700;
   font-size: 16px;
   text-align: left;
   .row {
-    padding-bottom: 20px;
+    padding-bottom: 37px;
     margin-left: 0;
   }
 }
