@@ -886,6 +886,22 @@ h3 {
   vertical-align: middle;
 }
 
+
+.page-header .navbar-nav>li>a.cta {
+  box-shadow: none;
+  border-bottom: 2px solid #fbb319;
+  border-radius: 0;
+  color: $text-reverse;
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 5px;
+
+  &:hover, &:active, &:focus {
+    background: #efae4e;
+    border-bottom: 2px solid #efae4e;
+  }
+}
+
 @media (max-width: 767px) {
   .competitors_main {
     .competitors_l {
@@ -926,7 +942,7 @@ h3 {
     }
   }
   .footer-middle {
-    padding: 20px !important;
+    padding: 20px 0 0 !important;
     .join-btn {
       margin: 10px !important;
     }
@@ -1103,14 +1119,14 @@ pre {
     margin-bottom: 8px;
   }
   footer {
-    height: 247px;
+    height: 213px;
     .short-desc-r {
       display: block;
       margin-top: 20px;
     }
   }
   .footer-middle .row.last {
-    padding-bottom: 5px;
+    padding-bottom: 20px;
   }
 }
 
@@ -1434,6 +1450,11 @@ pre {
     h6 {
       font-size: 1em;
     }
+  }
+  .page-header .navbar-nav > li > a.cta {
+    border-bottom: 0;
+    margin-left: 0;
+    width: 100%;
   }
 }
 
