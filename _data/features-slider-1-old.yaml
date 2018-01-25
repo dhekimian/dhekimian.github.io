@@ -1,0 +1,16 @@
+header: <h3> Hands-On Labs </h3>
+footer: ""
+#direction: right
+tabs:
+  - tab: Presentations - Consistent Branding & Messaging (Pitch the right content)
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>Keep the content current and up to date easily with Google Slides Integration</p>
+  - tab: Console
+    content: >
+      <img src="/assets/images/slider/Salesforce-01.gif">
+      <p>Custom build Sandbox Environment</p>
+  - tab: Story - Integrated lab steps w/ Buttons
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>GIF Show a screenshot of a lab story w/ buttons sending text to a console</p>
