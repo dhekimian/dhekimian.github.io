@@ -118,11 +118,11 @@ header {
   }
 }
 
-.btnshadow {
+  .btnshadow {
   font-family: $font-alt;
   font-weight: 700;
   font-size: 16px;
-  /* background-color: #1aa6ab;*/
+  // background-color: #1aa6ab;//
   outline: none;
   text-transform: uppercase;
   position: relative;
@@ -159,6 +159,7 @@ header {
     background: #efae4e;
   }
 }
+
 
 @media (max-width: 479px) {
   header .intro-text {
