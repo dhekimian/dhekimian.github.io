@@ -17,7 +17,11 @@ layout: base
           {% else %}
             <div class="stacked-align">
               <h3 id="{{ row.left.dropdown | slugify }}">{{ row.left.title }}</h3>
-              {{ row.left.description }}
+              <ul style="list-style-type:circle">
+              {% for x in row.left.description %}
+              <li>{{ x }}</li>
+                {% endfor %}
+            </ul>
             </div>
           {% endif %}
       </div>
@@ -27,7 +31,11 @@ layout: base
           {% else %}
             <div class="stacked-align">
               <h3 id="{{ row.right.dropdown | slugify }}">{{ row.right.title }}</h3>
-              {{ row.right.description }}
+              <ul style="list-style-type:circle">
+              {% for x in row.right.description %}
+              <li class="li-alignLeft">{{ x }}</li>
+                {% endfor %}
+            </ul>
             </div>
           {% endif %}
       </div>
