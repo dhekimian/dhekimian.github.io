@@ -3,19 +3,19 @@ var myChart= new Chart(ctx, {
     type: 'doughnut',
     data: {
        datasets: [{
-        labels:['Expense', 'Blue', 'Profit'],
-        data: [10, 30, 10],
+        labels:['Setup', 'Config', 'Demo'],
+        data: [20, 26, 4],
         backgroundColor: [
                 '#ef5350',
-                '#f44336',
+                '#fbb319',
                 '#4caf50',
               ]
     }],
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
-        'Salary',
-        'Blue',
-        'Profit'
+        'Setup',
+        'Config',
+        'Demo'
     ]},
     options: {
               responsive: true,
@@ -27,14 +27,20 @@ var myChart2= new Chart(ctx, {
     type: 'doughnut',
     data: {
        datasets: [{
-        data: [10, 20, 30]
+        labels:['Setup', 'Config', 'Demo'],
+        data: [10, 5, 35],
+        backgroundColor: [
+                '#ef5350',
+                '#fbb319',
+                '#4caf50',
+              ]
     }],
 
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
-        'Red',
-        'Yellow',
-        'Blue'
+        'Setup',
+        'Config',
+        'Demo'
     ]},
     options: {
               responsive: true,
