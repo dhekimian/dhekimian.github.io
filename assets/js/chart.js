@@ -1,49 +1,65 @@
+Chart.defaults.global.defaultFontSize = 16;
+//Doughnut Internal
 var ctx = document.getElementById("myChart");
 var myChart= new Chart(ctx, {
     type: 'doughnut',
     data: {
        datasets: [{
-        labels:['Setup', 'Config', 'Demo'],
-        data: [20, 26, 4],
+        labels:[],
+        data: [4, 20, 26],
         backgroundColor: [
-                '#ef5350',
-                '#fbb319',
-                '#4caf50',
+          '#4caf50',
+          '#ef5350',
+          '#fbb319'
               ]
     }],
     // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
-        'Setup',
+        'Demo',
         'Config',
-        'Demo'
+        'Setup'
     ]},
     options: {
               responsive: true,
-              maintainAspectRatio: false
+              maintainAspectRatio: false,
+              title: {
+                display: true,
+                text: 'Internal Development',
+                fontSize: 16,
+                fontColor: '#006EB6'
+
+              }
           }
 });
+
+// Doughnut TA
 var ctx = document.getElementById("myChart2");
 var myChart2= new Chart(ctx, {
     type: 'doughnut',
     data: {
        datasets: [{
-        labels:['Setup', 'Config', 'Demo'],
-        data: [10, 5, 35],
+        labels:[],
+        data: [40, 5, 5],
         backgroundColor: [
-                '#ef5350',
-                '#fbb319',
                 '#4caf50',
+                '#ef5350',
+                '#fbb319'
               ]
     }],
-
-    // These labels appear in the legend and in the tooltips when hovering different arcs
+   // These labels appear in the legend and in the tooltips when hovering different arcs
     labels: [
-        'Setup',
-        'Config',
-        'Demo'
+        'Demo',
+        'Config/Setup',
+        'Develop Stories / PoC'
     ]},
     options: {
               responsive: true,
-              maintainAspectRatio: false
+              maintainAspectRatio: false,
+              title: {
+                display: true,
+                text: 'TechAccelerator',
+                fontSize: 16,
+                fontColor: '#006EB6'
+              }
           }
 });
