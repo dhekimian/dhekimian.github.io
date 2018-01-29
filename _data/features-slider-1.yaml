@@ -1,15 +1,22 @@
-header: <h3> Sales&#58; Accelerate the Close </h3>
+header: <h3>Accelerate the Close </h3>
 footer: ""
 #direction: right
 tabs:
   - tab: Save The Talk. Show The Value.
+    head: <h3>Accelerate the Close</3>
+
     content: >
       <img src="/assets/images/slider/sample-1.png">
-      <p>Presentations and brochures don't demonstrate your products' full potential. Provision full-featured demo or PoC environments in minutes, so your prospects can quickly see your product in action, not just hear about it. Shorten the sales cycle by quickly getting to that “aha” moment where prospective customers can see what your solution can do for them.</p>
+      <p>Presentations and brochures don't demonstrate your products' full potential.
+       Provision full-featured demo or PoC environments in minutes, so your prospects can quickly see your product in action,
+       not just hear about it. Shorten the sales cycle by quickly getting to that “aha” moment where prospective customers
+       can see what your solution can do for them.</p>
   - tab: Demonstrate ROI on Sales Activity
     content: >
       <img src="/assets/images/slider/Salesforce-01.gif">
-      <p>Too often forecast reports don’t show supporting activity from field teams and partners.  Validate pipeline and link deals directly to sales effort with real-time reporting. TechAcccelerator integrates with Salesforce to capture customer lab engagement data in your system of record.</p>
+      <p>Too often forecast reports don’t show supporting activity from field teams and partners.
+      Validate pipeline and link deals directly to sales effort with real-time reporting.
+      TechAcccelerator integrates with Salesforce to capture customer lab engagement data in your system of record.</p>
   - tab: Achieve More with Less
     content: >
       <img src="/assets/images/slider/sample-1.png">
@@ -18,7 +25,3 @@ tabs:
     content: >
       <img src="/assets/images/slider/sample-1.png">
       <p>Stop wasting time with initial configurations, installations and hardware issues.  Give your sales engineers the hands-on time they need to become solutions experts with access to repeatable, reliable and up-to-date labs whenever, wherever.</p>
-  - tab: Achieve More with Less
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p>With TechAccelerator, you can conduct more demos and PoCs while eliminating the need to ship, assemble and configure countless, costly evaluation units.  More meaningful engagement. More efficient infrastructure utilization. More flexibility. Shorter sales cycles. Fewer resources. Less complexity.</p>

@@ -1,0 +1,108 @@
+header: <h3>Accelerate the Close </h3>
+footer: ""
+#direction: right
+tabs:
+  - tab: Save The Talk. Show The Value.
+    head: <h3>Accelerate the Close</3>
+    content: >
+      <span class="sticky">
+      <img src="/assets/images/slider/sample-1.png">
+      <p>Presentations and brochures don't demonstrate your products' full potential.
+       Provision full-featured demo or PoC environments in minutes, so your prospects can quickly see your product in action,
+       not just hear about it. Shorten the sales cycle by quickly getting to that “aha” moment where prospective customers
+       can see what your solution can do for them.</p>
+       </span>
+  - tab: Demonstrate ROI on Sales Activity
+    content: >
+     <span>
+      <img src="/assets/images/slider/Salesforce-01.gif">
+      <p>Too often forecast reports don’t show supporting activity from field teams and partners.
+      Validate pipeline and link deals directly to sales effort with real-time reporting.
+      TechAcccelerator integrates with Salesforce to capture customer lab engagement data in your system of record.</p>
+      <span>
+  - tab: Achieve More with Less
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>With TechAccelerator, you can conduct more demos and PoCs while eliminating the need to ship, assemble and configure countless, costly evaluation units.  More meaningful engagement. More efficient infrastructure utilization. More flexibility. Shorter sales cycles. Fewer resources. Less complexity.</p>
+  - tab: Spend Time Where It Counts
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p>Stop wasting time with initial configurations, installations and hardware issues.  Give your sales engineers the hands-on time they need to become solutions experts with access to repeatable, reliable and up-to-date labs whenever, wherever.</p>
+#Simple and Secure
+  - tab: Single Sign-On integration
+    head: <h3>Simple and Secure</3>
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]</b></p>
+      <p>Leverage your existing Single Sign-On setup with SAML integration. We support OKTA, OneLogin and many more!</p>
+  - tab: Direct VM console Access
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Show the console of a VM booting[/Screenshot]</b></p>
+      <p>Connect directly to the VMs console to configure & troubleshoot even when the network isn't working.</p>
+  - tab: No plugins, VPN, RDP required
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Gif of a user logging into our portal with some sort of ⦸ through an icon of AD, VPN RDP[/IMG]</b></p>
+      <p>No need to SSH or RDP!</p>
+  - tab: Role Based Access Control
+    content: >
+      <img src="http://wpresstic.com/wp-content/uploads/wordpress-user-roles.jpg">
+      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]</b></p>
+      <p>Employees vs Channel Partners vs End Users</p>
+#IAC
+  - tab: Integrated GitLab for Version Control of all Artifacts
+    head: <h3>Infrastructure as Code</h3>
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Show Gitlab logo and something representing a git repo and or “artifact”[/Screenshot]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Supported Languages / Tools
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Logos of Bash/PowerShell, Puppet, Chef, Ansible, Salt[/IMG]</b></p>
+      <p> BLURB M ISSING </p>
+#Lab Builder
+  - tab: VM Templates
+    head: <h3>Lab Builder</h3>
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Logos of various operating systems (Windows, CentOS, Ubuntu, ESXi etc.)[/Screenshot]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Software Catalog
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Node Templates
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Logos of various applications (Microsoft Active Directory, Microsoft Exchange, MySQL, Puppet Enterprise, etc.)[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Lab Blueprints and templates
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]GIF presentation slide <br>Slide 1: GIF of someone building a lab using VM templates AND Node templates <br>Slide 2:  GIF of someone creating a new blueprint from a template and making minor changes[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+# Reporting
+  - tab: Standalone Reports
+    head: <h3>Reporting</h3>
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Of reports[/Screenshot]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Salesforce Integration
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Animated GIF of Salesforce Reports[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Report Builder
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: Two Way data Integrations
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>

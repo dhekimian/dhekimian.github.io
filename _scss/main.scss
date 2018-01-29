@@ -1588,7 +1588,8 @@ pre {
     background: #fff;
     border: 1px solid #eee;
     border-radius: 10px;
-    margin: 0 20px;
+    margin: 0 20
+    px;
     padding: 0;
     width: 22%;
     &:first-of-type {
@@ -1920,20 +1921,22 @@ pre {
 }
 
 .featureslider_header {
-  margin-bottom: 15px;
+//  margin-bottom: 15px;
 }
 
 .featureslider_footer {
-  margin-top: 15px;
+  //margin-top: 15px;
 }
 
 .featureslider_tab.active {}
+
 
 .featureslider_content {
   img {
     height: 100%;
     width: 100%;
     object-fit: contain;
+    object-position:initial;
   }
   p {
     padding: 15px;
@@ -1941,7 +1944,13 @@ pre {
     font-size: 16px;
     text-align: center;
   }
+/*span {
+ position: fixed;
+ object-fit: contain;
+ }
+ */
 }
+
 
 /* left tabs */
 
@@ -1984,6 +1993,9 @@ pre {
   margin-bottom: 3px;
 }
 
+
+
+//table css
 .thead-careers{
   background-color: $ta_blue;
   color:white;

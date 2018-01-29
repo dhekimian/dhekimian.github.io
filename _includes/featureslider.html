@@ -4,12 +4,13 @@
     {% if include.c.direction != 'right' %}
       <!-- left tabs -->
       <section class="col-xs-4">
-        {% if include.c.header != "" %}
-          <div class="featureslider_header">{{ include.c.header }}</div>
-        {% endif %}
+      <!-- {% if include.c.header != "" %}-->
+      <!--    <div class="featureslider_header">{{ include.c.header }}</div>-->
+      <!--  {% endif %} -->
 
         <ul class="nav nav-tabs tabs-left">
           {% for tab in include.c.tabs %}
+          <div class="featureslider_header">{{ tab.head }}</div> <!--new feature-->
             <li class="featureslider_tab{% if forloop.index == 1 %} active{% endif %}"
                  id="featureslider_{{ include.name }}_tab_{{ forloop.index }}">
               <a href="#featureslider_{{ include.name }}_content_{{ forloop.index }}" data-toggle="tab">{{ tab.tab }}</a>
