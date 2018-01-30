@@ -1928,13 +1928,18 @@ pre {
   //margin-top: 15px;
 }
 
-.featureslider_tab.active {}
+.featureslider_tab.active {
+
+}
 
 
-.featureslider_content {
+.featureslider_content,   .tab-content  {
+
+  position:fixed;
+
   img {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     object-fit: contain;
     object-position:initial;
   }
@@ -1944,13 +1949,10 @@ pre {
     font-size: 16px;
     text-align: center;
   }
-/*span {
- position: fixed;
- object-fit: contain;
- }
- */
-}
 
+
+
+}
 
 /* left tabs */
 
@@ -1959,6 +1961,7 @@ pre {
 }
 
 .tabs-left.nav-tabs > li, .tabs-right.nav-tabs > li {
+
   float: none;
 }
 
@@ -1992,9 +1995,18 @@ pre {
   margin-right: 0;
   margin-bottom: 3px;
 }
+/*
+.tab-content{
+  position:fixed;
+}
 
 
+.tab-content > img {
 
+    max-width: 100%;
+    height: auto;
+}
+*/
 //table css
 .thead-careers{
   background-color: $ta_blue;
