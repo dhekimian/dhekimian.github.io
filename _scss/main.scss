@@ -1918,6 +1918,7 @@ pre {
 
 .featureslider {
   padding: 40px 0;
+
 }
 
 .featureslider_header {
@@ -1933,27 +1934,37 @@ pre {
 }
 
 
-.featureslider_content,   .tab-content  {
+.featureslider_content {
 
-  position:fixed;
+//  position:fixed;
 
   img {
     height: 80%;
     width: 80%;
     object-fit: contain;
     object-position:initial;
+
   }
   p {
     padding: 15px;
+    width: 80%;
     font-family: $font-alt;
     font-size: 16px;
     text-align: center;
+    line-height: 1.6em;
+  //  background-color:#ecf8fe;
   }
+}
 
-
+.featureslider_content,   .tab-content  {
+  position:fixed;
+//  padding:-45%;
 
 }
 
+.footer-slider {
+    width: 100px;
+}
 /* left tabs */
 
 .tabs-left.nav-tabs, .tabs-right.nav-tabs {
@@ -1995,18 +2006,7 @@ pre {
   margin-right: 0;
   margin-bottom: 3px;
 }
-/*
-.tab-content{
-  position:fixed;
-}
 
-
-.tab-content > img {
-
-    max-width: 100%;
-    height: auto;
-}
-*/
 //table css
 .thead-careers{
   background-color: $ta_blue;
