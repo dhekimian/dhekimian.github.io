@@ -3,7 +3,7 @@ footer: ""
 #direction: right
 tabs:
   - tab: Save The Talk. Show The Value.
-    head: <h3>Accelerate the Close</3>
+    head: <h3>Sales Accelerate the Close</3>
     content: >
       <img src="/assets/images/slider/sample-1.png">
       <p><b>Presentations and brochures don't demonstrate your products' full potential.
@@ -34,6 +34,33 @@ tabs:
       <p><b>Stop wasting time with initial configurations, installations and hardware issues.
        Give your sales engineers the hands-on time they need to become solutions experts with access to repeatable,
        reliable and up-to-date labs whenever, wherever.</b></p>
+  - tab: Turn up
+    head: <h3>Boost the Channels</3>
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>Blah Blah Blah</b><p>
+
+  - tab: Train and Educate
+    head: <h3>Training and Knowledge Base</h3>
+    content: >
+      <img src="/assets/images/slider/training_prez.gif">
+      <p><b>test</b></p>
+  - tab: Modular Training Kits
+    head: <h3>Marketing Essentials</h3>
+    content: >
+      <img src="/assets/images/slider/training_prez.gif">
+      <p><b>Modularize your marketing collateral</b></p>
+  - tab: Event Driven Marketing
+    head:
+    content: >
+      <img src="/assets/images/slider/create_events.png">
+      <p><b>Create custom class environments, and invite attendies.  Calendar event dates and times, custom event codes, and link
+      to our email delivery service</b></p>
+  - tab: Email Campaigns
+    head:
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>Create newletters, DRIP campaigns, and PR feature releases.  Choose campaigns with behavioral or event triggered methods.</b></p>
   - tab: Single Sign-On integration
     head: <h3>Simple and Secure</h3>
     content: >
@@ -87,21 +114,20 @@ tabs:
       <p> BLURB MISSING </p>
   - tab: Node Templates
     content: >
-      <img src="/assets/images/slider/sample-1.png">
+      <img src="/assets/images/slider/nodeBuilder.gif">
       <p><b>[IMG]Logos of various applications (Microsoft Active Directory, Microsoft Exchange, MySQL, Puppet Enterprise, etc.)[/IMG]</b></p>
       <p> BLURB MISSING </p>
   - tab: Lab Blueprints and templates
     content: >
-      <img src="/assets/images/slider/sample-1.png">
+      <img src="/assets/images/slider/blueprint.gif">
       <p><b>[IMG]GIF presentation slide <br>Slide 1: GIF of someone building a lab using VM templates AND Node templates <br>Slide 2:  GIF of someone creating a new blueprint from a template and making minor changes[/IMG]</b></p>
       <p> BLURB MISSING </p>
 # Reporting
   - tab: Standalone Reports
     head: <h3>Reporting</h3>
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[Screenshot]Of reports[/Screenshot]</b></p>
-      <p> BLURB MISSING </p>
+      <img src="/assets/images/slider/stats.gif">
+      <p><b>Deep staticial data on usage of the platform, bringing clarity of usage from each sales channel</b></p>
   - tab: Salesforce Integration
     content: >
       <img src="/assets/images/slider/sample-1.png">
