@@ -3,7 +3,7 @@ footer: ""
 #direction: right
 tabs:
   - tab: Save The Talk. Show The Value.
-    head: <h3>Sales Accelerate the Close</3>
+    head: <h3>Sales Accelerate the Close</h3>
     content: >
       <img src="/assets/images/slider/sample-1.png">
       <p><b>Presentations and brochures don't demonstrate your products' full potential.
@@ -30,51 +30,50 @@ tabs:
   - tab: Spend Time Where It Counts
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
+      <img src="/assets/images/slider/stats.gif">
       <p><b>Stop wasting time with initial configurations, installations and hardware issues.
        Give your sales engineers the hands-on time they need to become solutions experts with access to repeatable,
        reliable and up-to-date labs whenever, wherever.</b></p>
-  - tab: Turn up
-    head: <h3>Boost the Channels</3>
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>Blah Blah Blah</b><p>
-
-  - tab: Train and Educate
-    head: <h3>Training and Knowledge Base</h3>
-    content: >
-      <img src="/assets/images/slider/training_prez.gif">
-      <p><b>test</b></p>
-  - tab: Modular Training Kits
+  - tab: Event Driven Marketing
     head: <h3>Marketing Essentials</h3>
     content: >
-      <img src="/assets/images/slider/training_prez.gif">
-      <p><b>Modularize your marketing collateral</b></p>
-  - tab: Event Driven Marketing
-    head:
-    content: >
       <img src="/assets/images/slider/create_events.png">
-      <p><b>Create custom class environments, and invite attendies.  Calendar event dates and times, custom event codes, and link
-      to our email delivery service</b></p>
-  - tab: Email Campaigns
+      <p><b>Drive awareness and invite your customers to instructor led in-person demos or online Webinars.
+      Ability to quickly calendar event dates and times, and create custom event invitation codes.
+      </b></p>
+  - tab: Triggered Email Campaigns
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>Create newletters, DRIP campaigns, and PR feature releases.  Choose campaigns with behavioral or event triggered methods.</b></p>
-  - tab: Single Sign-On integration
-    head: <h3>Simple and Secure</h3>
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]
-      Leverage your existing Single Sign-On setup with SAML integration.
-      We support OKTA, OneLogin and other integrations upon Request.</b></p>
-  - tab: Direct VM console Access
+      <img src="/assets/images/slider/emailflow.jpg">
+      <p><b>Link your customers knowledge of the product -based on
+      which trainings they've completed, to event triggered email campaigns. Create newletters, DRIP campaigns, and PR feature releases.
+      Segment campaigns between channel partners, internal staff, and customers.</b></p>
+  - tab: Content Toolkit Locker
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><i>[Screenshot]Show the console of a VM booting[/Screenshot]</i>
-      Connect directly to the VMs console to configure & troubleshoot even when the network isn't working.</p>
-  - tab: No plugins, VPN, RDP required</p>
+      <img src="/assets/images/slider/presentation.gif">
+      <p><b>Effectively communicate recommended best practices, fundamental features through
+      presentation decks, and continue messaging through your future versioned labs. Develop a
+      locker of modifiable reusable presentations.</b></p>
+  - tab: Survey for Effectiveness
+    head:
+    content: >
+      <img src="/assets/images/slider/survey.gif">
+      <p><b>Customer feedback is your biggest marketing asset.  Add a survey at the end of each lab to collect vital
+      information on your products and presentation to find funnel roadblocks.</b></p>
+  - tab: Reduce Setup Time
+    head: <h3>On the Ball Training</h3>
+    content: >
+      <img src="/assets/images/slider/training_setup2.gif">
+      <p><b>Reduce your trainees setup time, assign instant signin credentials, simple point and click autofills
+       stop the stumbling blocks of hand coding startup files and prerequistes.</b></p>
+  - tab: Modularized Training Sets
+    head:
+    content: >
+      <img src="/assets/images/slider/modules.gif">
+      <p><b>Modularizing your key product topics into digestable sections, breaking down materials based on
+      features, operablity, or use case.  </b><p>
+  - tab: No plugins, VPN, RDP required
     head:
     content: >
       <img src="/assets/images/slider/sample-1.png">
@@ -87,59 +86,72 @@ tabs:
       <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]</b></p>
       <p><b>Employees vs Channel Partners vs End Users.  Customize your playbooks and training modules on defined
       cohorts, enhancing your ability to fine tune messaging, focuses on key points within demos, and helps define levels of competency.</b></p>
-  - tab: Integrated GitLab for Version Control of all Artifacts
-    head: <h3>Infrastructure as Code</h3>
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[Screenshot]Show Gitlab logo and something representing a git repo and or “artifact”[/Screenshot]</b></p>
-      <p> <b>Implement best practices in software development in your labs environments.
-      Enable your software engineers to easily clone, branch, merge, push changes, and view historical changes to labs. </b>  </p>
-  - tab: Supported Languages / Tools
+  - tab: <i>Power</i> Supported Languages / Tools
+    head: <h3>10x Engineering</h3>
     content: >
       <img src="/assets/images/slider/sample-1.png">
       <p><b>[IMG]Logos of Bash/PowerShell, Puppet, Chef, Ansible, Salt[/IMG]</b></p>
       <p><b>Use popular existing automation tools to abstract away all boilerplate setup.
       Save hundreds of hours by implementing script libraries and fast-forward to your solution
        </b></p>
-  - tab: VM Templates
-    head: <h3>Lab Builder</h3>
+  - tab: <i>Power</i> Direct VM console Access
+    head:
+    content: >
+      <img src="/assets/images/slider/se_visualizeStack.gif">
+      <p><b>
+      Connect directly to the VMs console to configure & troubleshoot even when the network isn't working.
+      Escape CLI, and get the power through GUI</b></p>  - tab: <i>Integration</i> GitLab for all Artifacts
+    head:
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[Screenshot]Show Gitlab logo and something representing a git repo and or “artifact”[/Screenshot]</b></p>
+      <p> <b>Implement best practices in software development in your labs environments.
+      Enable your software engineers to easily clone, branch, merge, push changes, and view historical changes to labs. </b>  </p>
+  - tab: <i>Integration</i> Salesforce
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Animated GIF of Salesforce Reports[/IMG]</b></p>
+      <p> Finally tie demos and product trails datasets into salesforce.    </p>
+  - tab: <i>Integration</i> Single Sign-On
+    head:
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]
+      Leverage your existing Single Sign-On setup with SAML integration.
+      We support OKTA, OneLogin and other integrations upon Request.</b></p>
+  - tab: <i> Integration</i> Two Way Data Integrations
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: <i>Lab Builder</i> VM Templates
+    head:
     content: >
       <img src="/assets/images/slider/sample-1.png">
       <p><b>[Screenshot]Logos of various operating systems (Windows, CentOS, Ubuntu, ESXi etc.)[/Screenshot]</b></p>
       <p> BLURB MISSING </p>
-  - tab: Software Catalog
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]TBD[/IMG]</b></p>
-      <p> BLURB MISSING </p>
-  - tab: Node Templates
+  - tab: <i>Lab Builder</i> Node Templates
     content: >
       <img src="/assets/images/slider/nodeBuilder.gif">
       <p><b>[IMG]Logos of various applications (Microsoft Active Directory, Microsoft Exchange, MySQL, Puppet Enterprise, etc.)[/IMG]</b></p>
       <p> BLURB MISSING </p>
-  - tab: Lab Blueprints and templates
+  - tab: <i>Lab Builder</i> Blueprints and templates
     content: >
       <img src="/assets/images/slider/blueprint.gif">
       <p><b>[IMG]GIF presentation slide <br>Slide 1: GIF of someone building a lab using VM templates AND Node templates <br>Slide 2:  GIF of someone creating a new blueprint from a template and making minor changes[/IMG]</b></p>
       <p> BLURB MISSING </p>
-# Reporting
-  - tab: Standalone Reports
-    head: <h3>Reporting</h3>
+  - tab: <i>Lab Builder</i> Software Catalog
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: <i>Reporting</i> Report Builder
+    content: >
+      <img src="/assets/images/slider/sample-1.png">
+      <p><b>[IMG]TBD[/IMG]</b></p>
+      <p> BLURB MISSING </p>
+  - tab: <i>Reporting</i>Standalone Reports
+    head:
     content: >
       <img src="/assets/images/slider/stats.gif">
       <p><b>Deep staticial data on usage of the platform, bringing clarity of usage from each sales channel</b></p>
-  - tab: Salesforce Integration
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]Animated GIF of Salesforce Reports[/IMG]</b></p>
-      <p> BLURB MISSING </p>
-  - tab: Report Builder
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]TBD[/IMG]</b></p>
-      <p> BLURB MISSING </p>
-  - tab: Two Way data Integrations
-    content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]TBD[/IMG]</b></p>
-      <p> BLURB MISSING </p>
