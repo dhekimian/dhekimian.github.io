@@ -5,8 +5,8 @@ tabs:
   - tab: Save The Talk. Show The Value.
     head: <h3>Sales Accelerate the Close</h3>
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>Presentations and brochures don't demonstrate your products' full potential.
+      <img src="/assets/images/slider/sales_distrup.gif">
+      <p><b><span style="color:red;">DEMO <span class="glyphicon glyphicon-arrow-right"></span> PoC <span class="glyphicon glyphicon-arrow-right"></span> PO <span class="glyphicon glyphicon-arrow-right"></span> FASTER </span><br/>
        Provision full-featured demo or PoC environments in minutes, so your prospects can quickly see your product in action,
        not just hear about it.
       Shorten the sales cycle by quickly getting to that “aha” moment where prospective customers
@@ -22,7 +22,7 @@ tabs:
   - tab: Achieve More with Less
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
+      <img src="/assets/images/slider/ta_platform.svg">
       <p><b>With TechAccelerator, you can conduct more demos and PoCs while eliminating the need to ship,
        assemble and configure countless, costly evaluation units.
        More meaningful engagement. More efficient infrastructure utilization. More flexibility.
@@ -30,14 +30,14 @@ tabs:
   - tab: Spend Time Where It Counts
     head:
     content: >
-      <img src="/assets/images/slider/stats.gif">
+      <img src="/assets/images/slider/sales_spendtime2.jpg">
       <p><b>Stop wasting time with initial configurations, installations and hardware issues.
        Give your sales engineers the hands-on time they need to become solutions experts with access to repeatable,
        reliable and up-to-date labs whenever, wherever.</b></p>
   - tab: Event Driven Marketing
     head: <h3>Marketing Essentials</h3>
     content: >
-      <img src="/assets/images/slider/create_events.png">
+      <img src="/assets/images/slider/marketing_events.gif">
       <p><b>Drive awareness and invite your customers to instructor led in-person demos or online Webinars.
       Ability to quickly calendar event dates and times, and create custom event invitation codes.
       </b></p>
@@ -76,8 +76,8 @@ tabs:
   - tab: No plugins, VPN, RDP required
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]Gif of a user logging into our portal with some sort of ⦸ through an icon of AD, VPN RDP[/IMG]
+      <img src="/assets/images/slider/training_novpn.gif">
+      <p><b>
       Instant access is essential during a presentation, eliminate the stumbling blocks of entry through SSH or RDP on our platform.</b></p>
   - tab: Role Based Access Control
     head:
@@ -109,9 +109,10 @@ tabs:
       Enable your software engineers to easily clone, branch, merge, push changes, and view historical changes to labs. </b>  </p>
   - tab: <i>Integration</i> Salesforce
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]Animated GIF of Salesforce Reports[/IMG]</b></p>
-      <p> Finally tie demos and product trails datasets into salesforce.    </p>
+      <img src="/assets/images/slider/int_salesforce.png">
+      <p><b>
+      <p> Stream data generated from demos and product trails into salesforce.  Providing insight to
+      sales management on dealflow stages, and activities in the field. </b>  </p>
   - tab: <i>Integration</i> Single Sign-On
     head:
     content: >
@@ -150,7 +151,7 @@ tabs:
       <img src="/assets/images/slider/sample-1.png">
       <p><b>[IMG]TBD[/IMG]</b></p>
       <p> BLURB MISSING </p>
-  - tab: <i>Reporting</i>Standalone Reports
+  - tab: <i>Reporting</i> Standalone Reporting
     head:
     content: >
       <img src="/assets/images/slider/stats.gif">
