@@ -66,26 +66,29 @@ tabs:
     content: >
       <img src="/assets/images/slider/training_setup2.gif">
       <p><b>Reduce your trainees setup time, assign instant signin credentials, simple point and click autofills
-       stop the stumbling blocks of hand coding startup files and prerequistes.</b></p>
+       stop the stumbling blocks of hand coding startup files and prerequistes. We've seen 60-90 minutes of time
+       reduction by forgoing the use of terminal logins, unix shell editors and commands. </b></p>
   - tab: Modularized Training Sets
     head:
     content: >
       <img src="/assets/images/slider/modules.gif">
       <p><b>Modularizing your key product topics into digestable sections, breaking down materials based on
-      features, operablity, or use case.  </b><p>
+      features, operablity, or use case.  Progress tracking is built in, and can be viewed from administration roles, and by the end user.</b><p>
   - tab: No plugins, VPN, RDP required
     head:
     content: >
       <img src="/assets/images/slider/training_novpn.gif">
       <p><b>
-      Instant access is essential during a presentation, eliminate the stumbling blocks of entry through SSH or RDP on our platform.</b></p>
+      Instant access is essential during a presentation, eliminate the stumbling blocks of entry through SSH or RDP on our platform.
+      Demo with confidence to customers with hardened environements- Goverments, Regulated Institutions.</b></p>
   - tab: Role Based Access Control
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]</b></p>
-      <p><b>Employees vs Channel Partners vs End Users.  Customize your playbooks and training modules on defined
-      cohorts, enhancing your ability to fine tune messaging, focuses on key points within demos, and helps define levels of competency.</b></p>
+      <img class="img-fluid" style="height:75%;"src="/assets/images/slider/segment.jpg">
+      <p><b>
+      Employees vs Channel Partners vs End Users.  Customize your playbooks and training modules on defined
+      cohorts, enhancing your ability to fine tune messaging, focuses on key points within demos, and helps define levels of competency.
+      Reduce costs in educating partners. </b></p>
   - tab: <i>Power</i> Supported Languages / Tools
     head: <h3>10x Engineering</h3>
     content: >
@@ -116,8 +119,8 @@ tabs:
   - tab: <i>Integration</i> Single Sign-On
     head:
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]Image of the supported SSO providers with some sort of lock and key[/IMG]
+      <img src="/assets/images/slider/sso_img.png">
+      <p><b>
       Leverage your existing Single Sign-On setup with SAML integration.
       We support OKTA, OneLogin and other integrations upon Request.</b></p>
   - tab: <i> Integration</i> Two Way Data Integrations
@@ -138,14 +141,15 @@ tabs:
       <p> BLURB MISSING </p>
   - tab: <i>Lab Builder</i> Blueprints and templates
     content: >
-      <img src="/assets/images/slider/blueprint.gif">
-      <p><b>[IMG]GIF presentation slide <br>Slide 1: GIF of someone building a lab using VM templates AND Node templates <br>Slide 2:  GIF of someone creating a new blueprint from a template and making minor changes[/IMG]</b></p>
-      <p> BLURB MISSING </p>
+      <img src="/assets/images/slider/lab_blueprint.gif">
+      <p><b>
+      </b> </p>
   - tab: <i>Lab Builder</i> Software Catalog
     content: >
-      <img src="/assets/images/slider/sample-1.png">
-      <p><b>[IMG]TBD[/IMG]</b></p>
-      <p> BLURB MISSING </p>
+      <img src="/assets/images/slider/catalog.png">
+      <p><b> We use industry leaders and vetted technology solutions.
+      We support numerous LTS versions within systems, as well as updates for release canditates to give you the edge in development environments.
+      Development and Testing against a multitude of enviornments enhances product development and iteration.</b></p>
   - tab: <i>Reporting</i> Report Builder
     content: >
       <img src="/assets/images/slider/sample-1.png">
@@ -155,4 +159,5 @@ tabs:
     head:
     content: >
       <img src="/assets/images/slider/stats.gif">
-      <p><b>Deep staticial data on usage of the platform, bringing clarity of usage from each sales channel</b></p>
+      <p><b>Deep staticial data on usage of the platform, bringing clarity of usage from each sales channel.
+      No longer do you </b></p>
