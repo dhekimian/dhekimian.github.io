@@ -11,10 +11,10 @@ Documentation is written in Markdown (with options similar to [Github's Flavor](
 On windows:
 ```shell
 C:\> @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-C:\> choco install -y ruby atom github 
+C:\> choco install -y ruby vscode github
 C:\> powershell
-C:\> wget https://rubygems.org/downloads/rubygems-update-2.6.7.gem
-C:\> gem install --local rubygems-update-2.6.7.gem
+C:\> wget https://rubygems.org/downloads/rubygems-update-3.0.3.gem
+C:\> gem install --local rubygems-update-3.0.3.gem
 C:\> update_rubygems --no-ri --no-rdoc
 C:\> gem uninstall rubygems-update -x
 ```
